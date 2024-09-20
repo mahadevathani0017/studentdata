@@ -4,7 +4,7 @@ import './App.css';
 import Dashboard from './components/Dashboard';
 import AddStudent from './components/AddStudent';
 import Studentlist from './components/Studentlist';
-
+import UpdateStudent from './components/UpdateStudent';
 
 const myRouter = createBrowserRouter([
   {
@@ -23,6 +23,10 @@ const myRouter = createBrowserRouter([
         path: "studentList",
         Component: Studentlist,
       },
+      {
+        path:"updateStudent",
+        Component:UpdateStudent,
+      }
     ],
   },
 ]);
